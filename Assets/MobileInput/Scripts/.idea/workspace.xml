@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7862c2d7-60e2-4768-b521-a937b785e6ee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Editor/CrossPlatformInputInitialize.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Editor/CrossPlatformInputInitialize.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Joystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Joystick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Textures/Joystick.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Textures/Joystick.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/SSAOShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/SSAOShader.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/VignettingShader.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/VignettingShader.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleAssets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scripts/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scripts/Enemy/EnemyHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scripts/Enemy/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scripts/Enemy/EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scripts/Helpers/BeautyShot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scripts/Helpers/BeautyShot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scripts/Helpers/VolumeHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scripts/Helpers/VolumeHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scripts/Managers/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scripts/Managers/PauseManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scripts/Managers/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scripts/Managers/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scripts/WeaponShop/WeaponButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scripts/WeaponShop/WeaponButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Heart.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Heart.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/UIButtonDefault.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/UIButtonDefault.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/UIButtonHighlighted.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/UIButtonHighlighted.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/UIButtonPressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/UIButtonPressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/UIPanel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/UIPanel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/UISliderBG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/UISliderBG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/UISliderFill.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/UISliderFill.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/UISliderHandle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/UISliderHandle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/UIToggleBG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/UIToggleBG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/UIToggleButton.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/UIToggleButton.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/UnityAdsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/UnityAnalyticsManager.asset" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Editor/CrossPlatformInputInitialize.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Joystick.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LyxPgQiWWdyh5fBVGDcaZtpDKI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;studio.ml.bot.history.legacyLocationsMigrated&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7862c2d7-60e2-4768-b521-a937b785e6ee" name="Changes" comment="" />
+      <created>1794440088552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794440088552</updated>
+      <workItem from="1794440089450" duration="16000" />
+      <workItem from="1794440121644" duration="12000" />
+      <workItem from="1794440139066" duration="25000" />
+      <workItem from="1794440190804" duration="79000" />
+      <workItem from="1794440388203" duration="298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

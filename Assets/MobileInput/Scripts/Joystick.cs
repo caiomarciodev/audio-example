@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine.EventSystems;
+//using UnityEngine.EventSystems;
 using UnitySampleAssets.CrossPlatformInput;
 
-public class Joystick : MonoBehaviour , IPointerUpHandler , IPointerDownHandler , IDragHandler {
+public class Joystick : MonoBehaviour {
 
     public int MovementRange = 100;
 
@@ -56,36 +56,36 @@ public class Joystick : MonoBehaviour , IPointerUpHandler , IPointerDownHandler 
     }
 
 
-    public  void OnDrag(PointerEventData data) {
-
-        Vector3 newPos = Vector3.zero;
-
-        if (useX) {
-            int delta = (int) (data.position.x - startPos.x);
-            delta = Mathf.Clamp(delta,  - MovementRange,  MovementRange);
-            newPos.x = delta;
-        }
-
-        if (useY)
-        {
-            int delta = (int)(data.position.y - startPos.y);
-            delta = Mathf.Clamp(delta, -MovementRange,  MovementRange);
-            newPos.y = delta;
-        }
-        transform.position = new Vector3(startPos.x + newPos.x , startPos.y + newPos.y , startPos.z + newPos.z);
-        UpdateVirtualAxes (transform.position);
-    }
-
-
-    public  void OnPointerUp(PointerEventData data)
-    {
-        transform.position = startPos;
-        UpdateVirtualAxes (startPos);
-    }
+    // public  void OnDrag(PointerEventData data) {
+    //
+    //     Vector3 newPos = Vector3.zero;
+    //
+    //     if (useX) {
+    //         int delta = (int) (data.position.x - startPos.x);
+    //         delta = Mathf.Clamp(delta,  - MovementRange,  MovementRange);
+    //         newPos.x = delta;
+    //     }
+    //
+    //     if (useY)
+    //     {
+    //         int delta = (int)(data.position.y - startPos.y);
+    //         delta = Mathf.Clamp(delta, -MovementRange,  MovementRange);
+    //         newPos.y = delta;
+    //     }
+    //     transform.position = new Vector3(startPos.x + newPos.x , startPos.y + newPos.y , startPos.z + newPos.z);
+    //     UpdateVirtualAxes (transform.position);
+    // }
 
 
-    public  void OnPointerDown (PointerEventData data) {
-    }
+    // public  void OnPointerUp(PointerEventData data)
+    // {
+    //     transform.position = startPos;
+    //     UpdateVirtualAxes (startPos);
+    // }
+
+
+    // public  void OnPointerDown (PointerEventData data) {
+    // }
 
     void OnDisable () {
         // remove the joysticks from the cross platform input
