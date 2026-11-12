@@ -1,11 +1,8 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
-
 
 public class WeaponButton : MonoBehaviour
 {
-
     public PlayerShooting playerShooting;
     public int weaponNumber;
 
@@ -16,13 +13,13 @@ public class WeaponButton : MonoBehaviour
     private AudioSource source;
 
     // Use this for initialization
-    void Start()
+    private void Start()
     {
         source = GetComponent<AudioSource>();
         SetButton();
     }
 
-    void SetButton()
+    private void SetButton()
     {
         string costString = playerShooting.weapons[weaponNumber].cost.ToString();
         weaponName.text = playerShooting.weapons[weaponNumber].weaponName;
@@ -34,10 +31,8 @@ public class WeaponButton : MonoBehaviour
     {
         if (ScoreManager.score >= playerShooting.weapons[weaponNumber].cost)
         {
-
             ScoreManager.score -= playerShooting.weapons[weaponNumber].cost;
             playerShooting.currentWeapon = weaponNumber;
-
         }
         else
         {

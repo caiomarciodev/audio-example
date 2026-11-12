@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
-using UnityEngine.UI;
 using UnityEngine.Audio;
+
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -18,7 +17,7 @@ public class PauseManager : MonoBehaviour {
 		canvas = GetComponent<Canvas>();
 	}
 	
-	void Update()
+	private void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
 		{
@@ -30,22 +29,15 @@ public class PauseManager : MonoBehaviour {
 	public void Pause()
 	{
 		Time.timeScale = Time.timeScale == 0 ? 1 : 0;
-		Lowpass ();
-		
+		LowPass();
 	}
 	
-	void Lowpass()
+	private void LowPass()
 	{
 		if (Time.timeScale == 0)
-		{
 			paused.TransitionTo(.01f);
-		}
-		
 		else
-			
-		{
 			unpaused.TransitionTo(.01f);
-		}
 	}
 	
 	public void Quit()
